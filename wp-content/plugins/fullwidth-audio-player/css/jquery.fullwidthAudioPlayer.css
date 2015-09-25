@@ -1,0 +1,100 @@
+/*
+* Fullwidth Audio Player V1.3.1
+* Author: Rafael Dery
+* Copyright 2011
+*
+* Only for the sale at the envato marketplaces
+*
+*/
+
+/* Reset */
+
+#fap-wrapper * { margin: 0; padding: 0; list-style: none !important; line-height: 12px; }
+
+/* Wrapper */
+
+#fap-wrapper { min-width: 100%; position: fixed; left: 0; z-index: 100000; border-top: 1px solid; border-bottom: 1px solid; font-size: 10px; font-family: Arial, Helvetica, sans-serif; }
+#fap-wrapper-switcher { position: absolute; width: 30px; height: 15px; left: 0; border: 1px solid; cursor: pointer; }
+.fap-switcher-normal { -webkit-transform: scale(1, 1); -moz-transform: scale(1, 1); -ms-transform: scale(1, 1); transform: scale(1, 1); }
+.fap-switcher-rotated { -webkit-transform: scale(1, -1); -moz-transform: scale(1, -1); -ms-transform: scale(1, -1); transform: scale(1, -1); }
+.fap-bordered-top { -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 0px; -webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px; }
+.fap-bordered-bottom { -moz-border-radius-topleft: 0px; -moz-border-radius-topright: 0px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-radius: 0px 0px 5px 5px; border-radius: 0px 0px 5px 5px; }
+#fap-init-text { position: absolute; left: 0; font-size: 12px; }
+.fap-wrapper-top #fap-init-text { bottom: 20px; }
+.fap-wrapper-bottom #fap-init-text { top: 20px; }
+#fap-main { width: 960px; height: 100%; position: relative; }
+/* Meta Stuff */
+
+#fap-meta-wrapper { width: 530px; float: left; margin-top: 10px;text-align:left; }
+#fap-meta-wrapper #fap-current-meta {height:22px;overflow:hidden;color:#999;display: none;}
+#fap-current-cover, #fap-cover-replacement { float: left; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5); box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);margin-right:18px }
+#fap-meta-wrapper svg { margin-right: 12px; }
+#fap-current-title { font-weight: bold; font-size: 13px; line-height: 18px; padding:2px 10px 0 0;text-transform:uppercase; }
+#fap-current-meta { font-size: 10px; }
+#fap-current-meta a, #fap-current-meta a:visited { color: #999; }
+#fap-current-meta a:hover { text-decoration: none; }
+#fap-social-links { margin-top: 6px;display:none; }
+#fap-social-links a { font-size: 10px; margin-right: 10px;color: #999; }
+#fap-social-links a:hover { text-decoration: none; }
+/* Main UI */
+
+#fap-ui-wrapper { width: 430px; float: right; }
+#fap-ui-wrapper > div { float: left; }
+#fap-ui-nav { position: relative; }
+#fap-ui-wrapper > div { margin-right: 11px; }
+#fap-ui-wrapper > div:last-child { margin-right: 0; }
+#fap-ui-nav canvas { position: absolute; top: 0; left: 0; cursor: pointer; }
+#fap-time-bar { position: relative; }
+#fap-time-bar div { position: absolute; top: 0; left: 0; }
+#fap-time-bar div, #fap-volume-bar, #fap-volume-bar div { cursor: pointer; }
+#fap-time-bar div { width: 0; }
+#fap-time-bar span { margin-top: 10px; }
+#fap-volume-bar div { width: 100%; }
+#fap-time-bar #fap-current-time { float: left; }
+#fap-time-bar #fap-total-time { float: right; }
+#fap-volume-bar { margin-right: 5px !important; }
+#fap-volume-sign { width: 15px; height: 30px; }
+#fap-playlist-toggle { margin-right: 0 !important;display:none; }
+#fap-time-bar, #fap-time-bar div, #fap-volume-bar, #fap-volume-bar div { height: 6px; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+/* Playlist Stuff */
+
+#fap-playlist-toggle { width: 25px; height: 25px; cursor: pointer; }
+#fap-playlist-shuffle { width: 25px; height: 25px; cursor: pointer; }
+#fap-playlist-wrapper { padding-right: 15px; padding-bottom: 15px; }
+#fap-playlist { width: 100%; height: 100%; }
+#fap-playlist-wrapper li { line-height: 20px; }
+#fap-playlist-wrapper li img, #fap-playlist-wrapper li .fap-cover-replace-small { float: left; width: 20px; height: 20px; }
+#fap-playlist-wrapper li span { float: left; line-height: 20px; margin-left: 10px; cursor: pointer; }
+#fap-playlist-wrapper li span:hover { text-decoration: underline; }
+#fap-playlist-wrapper li .fap-remove-track { width: 20px; height: 22px; cursor: pointer; float: right; }
+.fap-xml-playlist span { display: none; }
+/* Popup Skin */
+
+.fap-popup-skin #fap-wrapper-switcher { display: none; }
+/* Soundcloud */
+.sc-player-engine-container { width: 1px; height: 1px; position: fixed; top: -200px; left: -200px; }
+/* Antiscroll */
+
+.antiscroll-wrap { display: inline-block; position: relative; overflow: hidden; }
+.antiscroll-wrap .box, .antiscroll-wrap .box .antiscroll-inner { width: 960px; }
+.antiscroll-scrollbar { -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; position: absolute; opacity: 0;  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+-webkit-transition: linear 300ms opacity; -moz-transition: linear 300ms opacity; -o-transition: linear 300ms opacity; }
+.antiscroll-scrollbar-shown { opacity: 1;  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+.antiscroll-scrollbar-vertical { width: 7px; margin-top: 2px; right: 2px; top: 0; }
+.antiscroll-inner { overflow-y: scroll; }
+ .antiscroll-inner::-webkit-scrollbar, .antiscroll-inner::scrollbar {
+ width: 0;
+ height: 0;
+}
+/* Helper */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+.clear { clear: both; }
+
+/* Mobile ----------*/
+.wptouch-pro #fap-meta-wrapper {display:none}
+.wptouch-pro #fap-main {width:100%;}
+.wptouch-pro #fap-ui-wrapper {float:none;margin:0 auto;width:310px}
+.wptouch-pro #fap-wrapper {position:fixed!important;}

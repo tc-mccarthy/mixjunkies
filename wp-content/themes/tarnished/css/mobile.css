@@ -1,0 +1,11 @@
+/* 
+    Document   : mobile
+    Created on : Aug 23, 2013, 5:54:50 PM
+    Author     : mcassella
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.box, h3#responses, .search .post {padding:12px 12px 12px 20px }
+.post img.post-thumbnail, .post .placeholder {margin:-12px 16px -13px -22px;height:100px;width:100px;}
+.text-expand, #fap-wrapper, fb-root {display:none;}

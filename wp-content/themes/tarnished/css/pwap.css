@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* Set Backgrounds ---------- */
+body {background:url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/stripe-bg.png) repeat #000;color: #333; margin: 0 auto; padding: 0; font-family: Arial, Tahoma, "Lucida Sans Unicode", "Lucida Grande"; font-size: 13px; font-weight: normal; text-align: center; }
+h1 {color: #000; margin: 0; padding: 0 0 10px 0; line-height: 1;font-size: 24px;font-weight:bold;letter-spacing:-0.02em;padding:16px 0 0 }
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif;}
+p {line-height:1.3em;margin:12px 0 0 0}
+#wrap {width:760px;margin:0 auto;text-align:left;}
+.inner {float:left;width:468px;}
+#header {position:relative;}
+#header #logo {height:50px;padding:12px 0}
+#header #download {position:absolute;right:12px;top:20px}
+#main {background:#FFF;border:6px solid #000;overflow:hidden;padding-right:12px}
+#main img {float:left;margin:0 18px 0 0}
+#ad {padding:8px 0;background:#000;text-align:center;}
+#ad img, #ad iframe {border:1px solid #333;}
+#ad div {margin:0 auto}
+#btns {padding:22px 0 8px 0;height:32px;overflow:hidden;}
+#btns a, #btns a.disabled:hover {text-decoration:none;cursor:pointer;border:1px solid #000;box-shadow:inset 0 0 1px #FFF;position:relative;color:#999999;text-shadow:0 0 2px #000;background: #3c3c3c;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNjM2MzYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #3c3c3c 0%, #000000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3c3c3c), color-stop(100%,#000000));
+background: -webkit-linear-gradient(top,  #3c3c3c 0%,#000000 100%);
+background: -o-linear-gradient(top,  #3c3c3c 0%,#000000 100%);
+background: -ms-linear-gradient(top,  #3c3c3c 0%,#000000 100%);
+background: linear-gradient(to bottom,  #3c3c3c 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#000000',GradientType=0 );
+}
+#btns a {padding:16px 32px 16px 62px;}
+#btns a:hover {background: #000000;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzYzNjM2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #000000 0%, #3c3c3c 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#3c3c3c));
+background: -webkit-linear-gradient(top,  #000000 0%,#3c3c3c 100%);
+background: -o-linear-gradient(top,  #000000 0%,#3c3c3c 100%);
+background: -ms-linear-gradient(top,  #000000 0%,#3c3c3c 100%);
+background: linear-gradient(to bottom,  #000000 0%,#3c3c3c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3c3c3c',GradientType=0 );
+}
+#btns a.disabled {opacity:0.5;cursor: default;}
+#btns span {background:url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/dl-sprite.png) no-repeat;display:block;width:36px;height:30px;position:absolute;top:9px;left:6px}
+#btns a.tweet:hover span {background-position:-42px 0;}
+#btns a.tweet.it {padding:16px 62px 16px 82px;}
+#btns a.fb span {background-position:0px -38px}
+#btns a.fb:hover span {background-position:-43px -38px}
+input {padding:10px 4px;width:450px;border-radius:2px;border:1px solid #CCC;color:#5d5d5d}
+#btns a.dl {padding:16px 42px 16px 72px;}
+#btns a.dl.big {padding:16px 176px}
+#btns a.dl span, #btns a.disabled.dl:hover span {background-position:0 -72px}
+#btns a.dl:hover span {background-position:-43px -72px}
+p.link {padding:0;color:#c6002d;text-overflow: ellipsis;white-space: nowrap;width:455px;overflow:hidden;}
+p.link strong {color:#000}
+

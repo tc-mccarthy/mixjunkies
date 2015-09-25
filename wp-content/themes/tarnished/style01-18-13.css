@@ -1,0 +1,937 @@
+/*
+Theme Name: Tarnished
+Version: 2.3
+Description: Designed by Vectorloft
+Author: GhostPool Designs & Vectorloft
+Author URI: http://www.ghostpool.com
+*/
+
+/*************************** General Styling ***************************/
+
+/* Page Styling */
+body { color: #333; margin: 0 auto; padding: 0; font-family: Arial, Tahoma, "Lucida Sans Unicode", "Lucida Grande"; font-size: 13px; font-weight: normal; text-align: center;background:url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/body-bg.jpg) fixed !important; }
+/* Text Styling */
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { color: #000; text-transform: uppercase; margin: 0; padding: 0 0 10px 0; line-height: 1; }
+h1 { font-size: 30px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 15px; }
+h5 { font-size: 14px; }
+h6 { font-size: 13px; }
+.single-location h2, .single-location h3 {clear:both;}
+.home.page .single-wrapper h2 {font-size: 22px;}
+p { line-height: 19px; margin-bottom: 12px; }
+strong { font-family: "Lucida Grande", "Lucida Sans Unicode", Arial; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+
+/* List Styling */
+ol { padding: 0; margin: 0; }
+ol li { list-style: decimal; padding: 0 0 10px 0; margin: 0 0 0 20px; }
+ul { padding: 0; margin: 0; }
+ul li { border-top: 1px solid #fff; border-bottom: 1px solid #d7d7d7; background-position: -127px -12px; background-repeat: no-repeat; list-style-image: none; list-style-type: none; padding: 10px 0 10px 20px; margin: 0; }
+ul .li-first { border-top: 0; }
+ul .li-last { border-bottom: 0; }
+ul li, .recentcomments, h3.accordion-title, h3.toggle { background-image: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/sprite.png); }
+#recentcomments li {line-height:1.3em;padding-right:22px}
+.panel h3.accordion-title {color:#000;}
+/* Form Styling */
+input, textarea, select { font-family: Arial; font-size: 13px; padding: 5px; color: #333; border: 2px solid #d7d7d7; background-color: #ecebe7; }
+textarea { resize: none; }
+select { padding: 0; }
+input[type="submit"], input[type="reset"] { padding: 5px 10px; border-top: 1px solid #dadada; border-left: 1px solid #dadada; border-right: 1px solid #fff; border-bottom: 1px solid #fff; background: #000; font-weight: bold; color: #fff; cursor: pointer; }
+input[type="submit"]:hover, input[type="reset"]:hover { background: #d7d7d7; color: #333; }
+input[type="radio"], input[type="checkbox"] { background: transparent; border: 0; }
+fieldset { border: 1px solid #d7d7d7; margin: 0; padding: 10px; }
+legend { font-weight: bold; }
+
+/* Table Styling */
+table { border-top: 1px solid #d7d7d7; border-left: 1px solid #d7d7d7; border-right: 1px solid #d7d7d7; }
+th { background: #d7d7d7; padding: 5px 10px; }
+td { background: #fff; border-bottom: 1px solid #d7d7d7; padding: 5px 10px; font-size: 12px; }
+
+/* Other Styling */
+cite { float: right; padding: 0 0 5px 0; }
+hr { clear: both; border-top: 1px solid #d8d8d8; width: 100%; height: 2px; padding: 0 !important; margin: 20px 0; position: relative; }
+pre { background: #f8f8f8; border: 1px solid #d7d7d7; padding: 15px; margin: 5px 0 20px 0; line-height: 19px; font-family: "Courier New"; overflow: auto; font-size: 12px; }
+code { background: #f8f8f8; border: 1px solid #d7d7d7; clear: both; display: block; font-size: 12px; line-height: 19px; padding: 5px 15px; margin: 10px 0 10px 0; }
+xmp { background: #f8f8f8; border: 1px solid #d7d7d7; padding: 15px; margin: 5px 0 20px 0; line-height: 19px; font-family: "Courier New"; overflow: auto; font-size: 12px; }
+
+/* Image Styling */
+.aligncenter { position: relative; margin:0 !important; display: block; clear: both; }
+.alignleft { position: relative; float: left; margin: 6px 20px 12px 0;border:4px solid #000; }
+.alignright { float: right; position: relative; margin: 6px 0 5px 20px;border:4px solid #000; }
+.wp-caption { position: relative; padding: 12px 5px; }
+.wp-caption img { margin: 5px 5px 0; }
+.wp-caption-text { margin: 5px 5px 0 5px; font-size: 11px; color: #666; }
+.gallery img { padding: 3px; border: 1px solid #d7d7d7 !important; background: #f8f8f8; }
+.preload { display: none; }
+.no-js .preload { display: block; }
+
+/* Alignment Styling */
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; line-height: 0; padding: 0; margin: 0; height: 0; display:block; font-size:0; width:100%; }
+.caption {color:#666;font-size:11px;}
+
+/*************************** Content Areas ***************************/
+
+/* Page Wrap*/
+#page-wrapper { position: relative;padding-top:94px; margin: 0 auto 30px auto; width: 981px; text-align: left; }
+/* Content Wrapper */
+#content-wrapper { margin: -104px auto 0 auto; width: 970px;padding-top:109px;padding-bottom:45px; border-left: 6px solid #000; border-right: 6px solid #000;box-shadow: 1px 1px 8px #000;position:relative; }
+.fixed #content-wrapper {padding-top:176px}
+#content-wrapper.sb-left { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/content-bg-left.png) repeat-y; }
+#content-wrapper.sb-right { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/content-bg-right-xlrg.png) #FFF repeat-y 16px 0; }
+#content-wrapper.fullwidth { background:#FFF; }
+
+
+/*************************** Main Content ***************************/
+
+/* Main Content */
+#main-content { position: relative; width: 622px; padding: 0 0 30px 0; }
+.sb-right #main-content { float: left; }
+.sb-left #main-content { float: right; }
+.fullwidth #main-content { float: left; width: 950px; }
+
+
+/*************************** Sidebar ***************************/
+
+/* Sidebar */
+#sidebar { width: 332px; padding: 12px 0 10px 0; }
+.sb-right #sidebar { float: right; }
+.sb-left #sidebar { float: left; }
+#sidebar ul li {padding-right:20px;}
+
+/* What's Hot -----------------*/
+#wpp-3 ul li, #wpp-42 ul li {background:none;margin:0;padding:8px 0 8px 18px;clear:both;overflow:hidden;line-height:1.3em;margin-left:-12px;}
+#wpp-3 ul li a img, #wpp-42 ul li a img {float:left;margin-right:8px;border:3px solid #CCC;}
+a.wpp-post-title {float:left;width:240px;display:block;padding:4px 0 0 0}
+
+/*************************** Header ***************************/
+
+/* Header Container */
+.fixed #header {position:fixed;top:-60px;}
+#header .inner {height:60px;padding:4px;margin:0 auto; width:972px;z-index:9000;border:1px solid #807f7d;border-bottom:14px solid #72716f;background:#000;-webkit-box-shadow: inset 0 0 2px 2px #353535;box-shadow: inset 0 0 2px 2px #353535;border:1px solid #000;position:relative;top:60px}
+#header {position: relative; width: 100%;margin:0 auto; z-index:9999; }
+.header-admin-bar { position: absolute; top: 28px; left: 0; min-width: 980px; width: 100%; }
+
+/* Logo */
+#logo { float: left; position: relative;border:none;margin-left:10px}
+#logo h1 a { float: left; text-transform: uppercase; display: block; font-size: 70px; padding: 0; margin: 12px 0 0 0; }
+#logo span { display: block; width: 459px; height: 108px; }
+#logo img, #logo span { margin-top: 5px;border:none; }
+#logo img {width:200px}
+
+#header #smedia {position:absolute;left:240px;top:10px}
+#header .socials {display:block;color:#666;float:left;width:130px;text-align:left;font-weight:bold;}
+#header .socials:hover {color:#ed1846}
+#header .socials .join {display:block;font-size:10px;padding:10px 0 2px 0;font-weight:normal}
+#header .socials .icon, #sidebar a.cal .icon, #searchsubmit {background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/mj-sprite.png) no-repeat;}
+#header .socials .icon {display:block;float:left;width:46px;height:46px;}
+#header #twit.socials .icon {background-position:-42px 0px}
+#header #twit.socials:hover .icon {background-position:-42px -43px}
+#header #face.socials:hover .icon {background-position:0 -43px}
+
+/* Search Form */
+#header #searchform {position:absolute;right:110px;top:19px}
+#searchbar { float: left; width: 266px; height: 13px; padding: 8px; border: 0;color:#999;font-size:12px;z-index:9000 }
+#searchsubmit { float: left; width: 55px; height: 29px; margin: 0; padding: 6px 0;background-position:18px -94px;overflow:hidden;text-indent:-9999px;border:none; }
+#searchsubmit:hover {background-color:#212121;background-position:-25px -94px;box-shadow:inset 0 0 2px #333;}
+
+/*************************** Navigation Menu ***************************/
+
+/* Nav Wrapper */
+#nav { background: #000;clear:both; width: 980px; height: 30px; padding: 6px 0 ; float: left; z-index: 100;text-align:left;border:1px solid #000;box-shadow:inset 0 0 2px #5a5a5a;position:relative;top:8px;left:-5px;background: #2b2b2b;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMmIyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #2b2b2b 0%, #000000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b2b2b), color-stop(100%,#000000));
+background: -webkit-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: -o-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: -ms-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: linear-gradient(to bottom,  #2b2b2b 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#000000',GradientType=0 );
+
+ }
+#nav .menu { display: inline; }
+/* Top Level Nav */
+#nav ul, #nav ul ul { float: left; position: relative; list-style-type: none; list-style-position: outside; }
+#nav ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+#nav ul li { float: left; background: none; display: block; position: relative; margin: 0; padding: 0; border: 0; }
+#nav ul a { color: #fff; font-size: 13px; font-weight: bold; display: block; padding: 5px 21px; height: 20px; line-height: 20px; text-transform: uppercase; }
+#nav span { margin-left: 5px; color: #fff; filter: alpha(opacity=60); -moz-opacity: 0.6; -khtml-opacity: 0.6; opacity: 0.6; }
+
+/* Drop Down Menus */
+#nav .sub-menu { position: absolute; z-index: 100; top: 34px; left: 0; display: none; padding: 0; margin: 0; border: 1px solid #202020; background: #000; width: 200px; -webkit-box-shadow: 1px 1px 5px #000; -moz-box-shadow: 1px 1px 5px #000; box-shadow: 1px 1px 5px #000; }
+#nav .sub-menu li { background: none; margin: 0; padding: 0; height: auto; position: static; }
+#nav li:hover > .sub-menu { display: block; }
+#nav .sub-menu a { display: block; height: auto; float: left; padding: 10px 15px; margin: 0; width: 170px; font-size: 12px; text-transform: none; font-weight: normal; background: #000; border-bottom: 1px solid #202020; }
+/* Sub Drop Down Menus */
+#nav ul .sub-menu li ul { top: auto; left: 200px; }
+
+
+/*************************** Page/Post Styling ***************************/
+
+/* Top Content */
+#top-content { float: left; width: 968px; margin-top: 0; padding-bottom: 15px; }
+body.home #top-content {height:284px;}
+
+/* Page */
+.single-wrapper { float: left; padding: 0 20px 0 20px; }
+.single-wrapper h2 {clear:both;}
+.fullwidth .single-wrapper { width: 930px; }
+.single-wrapper.error-page { padding-top: 15px; }
+.page-title {padding: 20px 20px 6px; margin: 0 0 0 0; text-shadow: 1px 1px 1px #fff; }
+h2.page-title { min-height: 23px; }
+
+/* Posts */
+.post { float: left; border-top: 1px solid #d7d7d7; border-bottom: 1px solid #d7d7d7; position: relative; }
+.post h2 { padding-bottom: 5px; }
+.post .post-text h2 {clear:none;}
+.post-thumbnail { float: left; position: relative; overflow: hidden; border-top: 1px solid #fff; border-right: 1px solid #fff; border-bottom: 1px solid #fff; margin: 12px 20px 12px 20px; }
+.post-thumbnail.no-wrap { border-right: 0; margin: 0 0 20px 0; width: 100%; }
+.post-thumbnail img { position: relative; display: block; border: 1px solid #d7d7d7; }
+.post-text { padding: 20px; border-top: 1px solid #fff;width:584px }
+.fullwidth .post-text { width: 910px; }
+.post-divider { background:#e7e7e7; height: 10px;-moz-box-shadow: inset 0 0 2px 0 #FFF;-webkit-box-shadow: inset 0 0 2px 0 #FFF;box-shadow: inset 0 0 2px 0 #FFF; }
+
+/* Post Meta */
+.fullwidth .page-title { width: 910px; }
+.byline {color:#999; font-size: 12px; margin-bottom: 10px; }
+.post-creator a { color: #999; text-decoration: underline; }
+.post-creator a:hover { text-decoration: none; }
+.post-meta { padding: 6px 0 10px 0;margin-bottom:-2px; font-size: 11px; line-height: 11px; }
+.post-meta a { color: #333; }
+.single-wrapper .post-meta { padding-bottom: 6px; }
+.post-meta span {padding: 0 15px 0 20px;line-height:2.2em;}
+.post-date {padding:0 6px 0 0}
+span.post-cats {padding-left:0 }
+.post-cats a {background:#EFEFEF;padding:3px 6px;white-space:nowrap;text-shadow:0 1px 1px #FFF;border:1px solid #dcdcdc;box-shadow:inset 0 0 1px #FFF}
+.post-cats a:hover {background:#666;color:#FFF;text-shadow:none;}
+span.post-comments { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/sprite.png) no-repeat -33px -160px;margin-left:-4px;white-space:nowrap; }
+
+/* Blog List -------------*/
+.post-text h3 {margin:0;padding:0 0 4px 0}
+.post-text p {padding:6px 0 0 0}
+.post-text .post-creator a {text-decoration:none;color:#000}
+.post-text .post-creator a:hover {text-decoration:underline;}
+.post-text .post-meta {padding:0;margin-top:-4px;}
+.post-text .post-date {display:none;padding:0;margin:0}
+
+
+/* Attachments */
+.attachment img { max-width: 100%; height: auto; }
+
+
+/*************************** Shortcodes: Columns ***************************/
+
+/* General */
+.columns { float: left; position: relative; line-height: 19px; }
+/* Blank Columns */
+.blank { margin-right: 2%; }
+.one.blank { width: 100%; }
+.two.blank { width: 49%; }
+.three.blank { width: 32%; }
+.four.blank { width: 23.5%; }
+.onethird.blank { width: 32%; }
+.twothirds.blank { width: 66%; }
+.onefourth.blank { width: 23.5%; }
+.threefourths.blank { width: 74.5%; }
+/* Separate Columns */
+.separate > div { position: relative; padding: 20px; border: 1px solid #d8d8d8; background-color: #fff; }
+.separate { margin-right: 2%; }
+.one.separate { width: 100%; }
+.two.separate { width: 49%; }
+.three.separate { width: 32%; }
+.four.separate { width: 23.5%; }
+.onethird.separate { width: 32%; }
+.twothirds.separate { width: 66%; }
+.onefourth.separate { width: 23.5%; }
+.threefourths.separate { width: 74.5%; }
+/* Joint Columns */
+.joint > div { position: relative; padding: 20px; border: 1px solid #d8d8d8; background-color: #fff; }
+.middle.joint > div { border-left-color: #fff; }
+.last.joint > div { border-left-color: #fff; }
+.one.joint { width: 100%; }
+.two.joint { width: 50%; }
+.three.joint { width: 33.33%; }
+.four.joint { width: 25%; }
+.onethird.joint { width: 33.33%; }
+.twothirds.joint { width: 66.33%; }
+.onefourth.joint { width: 25%; }
+.threefourths.joint { width: 75%; }
+.last { clear: right; margin-right: 0; }
+
+
+/*************************** Shortcodes: Images ***************************/
+
+/* Image */
+.sc-image a { display: block; margin: 0 auto; }
+/* Lightbox */
+.hover-image, .hover-video { position: absolute; z-index: 10; width: 100%; height: 100%; filter:alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; cursor: pointer; }
+.hover-image { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/zoom.png) no-repeat center center; }
+div.gallery-item .gallery-icon a { display: block; position: relative; margin: 0 auto; }
+div.gallery-item .gallery-icon .hover-image { margin: 4px 0 0 4px; }
+.hover-video { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/play.png) no-repeat center center; }
+.image:hover .hover-image, .image:hover .hover-video { filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8; }
+.pp_gallery li { background: none; border: 0; padding: 0; }
+.pp_gallery li.jwplayer a { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/prettyPhoto/facebook/default_thumbnail.gif) no-repeat; width: 50px; height: 33px; display: block; }
+
+
+/*************************** Shortcodes: Video ***************************/
+
+.sc-video.aligncenter object, .sc-video.aligncenter div { margin: 0 auto; display: block; }
+.hide-icons > div > div > div > div > div { background-image: none !important; }
+
+
+/*************************** Shortcodes: Fade Slider ***************************/
+
+/* Slider */
+.slider-wrapper { position: relative; display: none; }
+.slider-wrapper.display, .no-js .slider-wrapper { position: relative; display: block; }
+.slider-wrapper.aligncenter { margin: 0 auto !important; }
+.slider { float: left; position: relative; }
+/* Individual Slides */
+.slider .slide { display: none; }
+.slider.display .slide { display: block; }
+.no-js .slider div:first-child { display: block; }
+/* Slide Video */
+.slide-video { position: relative; display: inline-block; background: #000; cursor: pointer; }
+.slide-video > div { width: inherit !important; height: inherit !important; }
+/* Caption Styles */
+.caption-dark { color: #666; background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/caption-dark-bg.png) repeat; border: 1px solid #000; }
+.caption-dark h2 { color: #fff; }
+.caption-light { color: #333; background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/content-bg-fullwidth.png) repeat; border: 1px solid #d7d7d7; }
+.caption-light h2 { color: #000; }
+/* Caption Frame */
+.caption-frame { position: relative; padding: 20px; line-height: 19px; overflow: hidden; }
+.caption-left { float: left; }
+.caption-right { float: right; }
+/* Caption Overlay */
+.caption-overlay { background: none; position: absolute; height: 30px; z-index: 11; line-height: 19px; padding: 15px 20px 20px 20px; border: 0; -webkit-box-shadow: 1px 1px 5px #000; -moz-box-shadow: 1px 1px 5px #000; box-shadow: 1px 1px 5px #000; }
+.caption-overlay.caption-topleft { top: 40px; left: 0; }
+.caption-overlay.caption-topright { top: 40px; right: 0; }
+.caption-overlay.caption-bottomleft { bottom: 40px; left: 0; }
+.caption-overlay.caption-bottomright { bottom: 40px; right: 0; }
+.caption-overlay h2 { font-size: 35px; padding: 0; }
+.caption-overlay.caption-light h2 a { color: #000; }
+.caption-overlay.caption-dark h2 a { color: #fff; }
+.caption-overlay.caption-dark { background: #000 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/caption-overlay-dark.png) repeat-x; }
+.caption-overlay.caption-light { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/caption-overlay-light.png); }
+
+/* Slider Nav Wrapper */
+.slider-nav-wrapper { margin-top: 0; float: left; position: relative; z-index: 90; width: 100%; }
+#main-content .slider-nav-wrapper { margin-bottom: 20px; }
+.nav-type-1.slider-nav-wrapper {border:1px solid #000;box-shadow:inset 0 0 1px #666; background: #2b2b2b;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMmIyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #2b2b2b 0%, #000000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b2b2b), color-stop(100%,#000000));
+background: -webkit-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: -o-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: -ms-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: linear-gradient(to bottom,  #2b2b2b 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#000000',GradientType=0 );
+ height: 95px; }
+.nav-type-2.slider-nav-wrapper { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/slider-nav-bg.png) repeat-x; text-align: center; height: 43px; }
+.nav-type-3.slider-nav-wrapper { background: none; height: 43px; text-align: center; }
+.slider-nav-left { position: absolute; z-index: 90; top: 4px; left: -16px;  width: 42px; height: 102px; }
+.slider-nav-right { position: absolute; z-index: 90; top: 4px; right: -16px;  width: 20px; height: 102px; }
+.nav-type-2 .slider-nav-left, .nav-type-2 .slider-nav-right { height: 39px; }
+.nav-type-3 .slider-nav-left, .nav-type-3 .slider-nav-right { display: none; }
+#main-content .slider-nav-left { left: -10px; }
+#main-content .slider-nav-right { right: -10px; }
+
+/* Slider Nav Arrows */
+.slide-prev { display: none; z-index: 91; position: absolute; top: 40px; left: 12px; background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/sprite.png) no-repeat -33px -222px; width: 15px; height: 20px; cursor: pointer; }
+.slide-next { display: none; z-index: 91; position: absolute; top: 40px; right: 12px; background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/sprite.png) no-repeat -63px -222px; width: 15px; height: 20px; cursor: pointer; }
+.nav-type-1 .slide-prev, .nav-type-1 .slide-next { display: block; }
+
+/* Slider Nav Chain */
+.slider-nav-overflow { clip: rect(0, 0, 0, 0); margin: 0 22px 0 41px; padding: 0; overflow: hidden; height: 84px;width:890px!important; }
+.slider-nav { position: relative; display: inline-block; }
+.nav-type-1 .slider-nav { width: 5000px; }
+.slider-button { float: left; display: block; line-height: 0; margin: 16px 5px 0 5px; cursor: pointer; }
+.slider-button img { display: none; padding: 2px; }
+.nav-type-1 .slider-button { border: 2px solid #323232; }
+.nav-type-1 .slider-button img { display: block; }
+.nav-type-2 .slider-button { background: #404040; margin-top: 19px; width: 14px; height: 14px; }
+.nav-type-3 .slider-button { background: #404040; width: 14px; height: 14px; }
+
+/* Slider Controls */
+#slider-controls { background: #000; position: absolute; bottom: 0px; right: 0; padding: 5px 5px 4px 4px; z-index: 99; width: 20px; height: 20px; text-align: center; }
+#top-content #slider-controls { padding: 8px 3px 4px 5px; }
+#slider-controls a { color: #404040; font-size: 14px; }
+#slider-controls a .rotation-button { padding-left: 3px; }
+#slider-controls a .pause-button { font-size: 10px; padding-left: 0; }
+#slider-controls a:hover { color: #eee; cursor: pointer; text-decoration: none; }
+
+
+/*************************** Shortcodes: Accordion Slider ***************************/
+
+/* Accordion Slider */
+.accordion-slider { position: relative; background: #fff url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/preloader.gif) no-repeat center center; display: block; overflow: hidden; padding: 0; margin: 0; }
+.accordion-slider.hide-preloader { background-image: none; }
+.accordion-slider li { background: none; list-style: none; position: relative; display: block; overflow: hidden; padding: 0; margin: 0; border: 0; }
+/* Accordion Caption */
+.accordion-slider .panel .caption-outer { position: absolute; left: 0; width: 100%; filter: alpha(opacity=0); -moz-opacity: 0; -khtml-opacity: 0; opacity: 0; z-index: 11; }
+.no-js .accordion-slider .panel:hover .caption-outer { filter:alpha(opacity=90); -moz-opacity: 0.9; -khtml-opacity: 0.9; opacity: 0.9; }
+.caption-top { top: 0; }
+.caption-bottom { bottom: 0; }
+.caption-inner { padding: 20px 20px 10px 20px; }
+/* Horizontal/Vertical */
+.accordion-slider .horizontal li { float: left; }
+
+
+/*************************** Shortcodes: Text Boxes ***************************/
+
+.text-box { float: left; display: inline-block; }
+.text-box.centered { float: none; display: block; }
+.text-box p { line-height: inherit; }
+
+
+/*************************** Shortcodes: Buttons ***************************/
+
+.button-wrapper { z-index: 1; position: relative; display: inline-block; margin: 10px 10px 10px 0; }
+.button { line-height: 1; height: 100%; }
+.button a, .button a:hover { display: block; height: 100%; color: #fff; font-size: 12px; padding: 8px 12px; white-space:nowrap; }
+/* Dark Grey Button */
+.darkgrey.button a { background-color: #202020; }
+.darkgrey.button a:hover { background: #404040; }
+/* Brown Button */
+.brown.button a { background-color: #5e3e2c; }
+.brown.button a:hover { background: #2b1406; }
+/* Blue Button */
+.blue.button a { background-color: #09b0fe; }
+.blue.button a:hover { background: #258df8; }
+/* Lime Green Button */
+.limegreen.button a { background-color: #bad06d; }
+.limegreen.button a:hover { background: #a4cc56; }
+/* Teal Button */
+.teal.button a { background-color: #366a7b; }
+.teal.button a:hover { background: #23444b; }
+/* Red Button */
+.red.button a { background-color: #93063b; }
+.red.button a:hover { background: #b03238; }
+/* Orange Button */
+.orange.button a { background-color: #ee8600; }
+.orange.button a:hover { background: #b25f0f; }
+/* Yellow Button */
+.yellow.button a { background-color: #d8d11d; }
+.yellow.button a:hover { background: #dcc10a; }
+
+
+/*************************** Shortcodes: Blog ***************************/
+
+.blog { float: left; width: 650px; margin: -15px 0 0 -20px; }
+.fullwidth .blog { width: 950px; }
+.blog .post-meta { padding: 5px 0 20px 0; }
+.blog-wrapper {margin:0 -20px}
+
+
+/*************************** Shortcodes: Dividers ***************************/
+
+.divider { border-top: 1px solid #d7d7d7; border-bottom: 1px solid #fff; clear: both; width: 100%; height: 0; padding: 0; margin: 30px 0; position: relative; }
+.divider.top a { font-size: 8px; float: right; width: 20px; position: absolute; top: -20px; right: 0; color: #999; text-align: right; }
+.divider.clear { border: 0; margin-bottom: 0; }
+
+
+/*************************** Shortcodes: Blockquotes ***************************/
+
+blockquote { clear: both; font-size: 14px; margin: 5px 20px 10px 20px; padding: 10px 0 5px 25px; overflow: hidden; }
+blockquote p { line-height: 23px; }
+.blockquote-left { float: left; margin: 10px 20px 20px 0; }
+.blockquote-right { float: right; margin: 10px 0 20px 20px; }
+.blockquote-right, .blockquote-left { width: 30%; font-size: 14px; line-height: 23px; padding: 10px 0 5px 25px; }
+blockquote, .blockquote-right, .blockquote-left { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/bq-light.png) no-repeat; }
+
+
+/*************************** Shortcodes: Accordion ***************************/
+
+.accordion .panel { position: relative; width: 100%; margin-bottom: 10px; overflow: hidden; border: 1px solid #d8d8d8; background-color: #fff; }
+h3.accordion-title { font-size: 18px; padding: 10px 0 10px 30px; background-position: -119px -11px; background-repeat: no-repeat; }
+h3.ui-state-active.accordion-title { background-position: -98px -37px; }
+.panel-content { padding: 0 20px 20px 20px; line-height: 19px; }
+
+
+/*************************** Shortcodes: Toggle Box ***************************/
+
+h3.toggle { background-repeat: no-repeat; background-position: -127px -23px; font-size: 16px; padding: 0 0 20px 23px; cursor: pointer; }
+h3.toggle a { text-decoration: none; display: block; }
+h3.toggle-active { background-position: -106px -50px; }
+.toggle-box { clear:both; margin: 0 0 10px 0; overflow: hidden; }
+
+
+/*************************** Shortcodes: Portfolios ***************************/
+
+/* Portfolio */
+.portfolio { width: 100%; }
+.portfolio-item { float: left; }
+.portfolio-item.joint > div {background:#ededed;box-shadow:inset 0 0 2px #FFF;margin-bottom:1px;}
+.portfolio-item.joint > div h2 {text-shadow:0 0 2px #FFF;}
+.portfolio-thumbnail { float: left; position: relative; overflow: hidden; border: 1px solid #fff; margin-bottom: 10px; }
+.portfolio-thumbnail img { position: relative; display: block; }
+/* Portfolio Type Two/Three Columns */
+.portfolio-three-col .portfolio-item, .portfolio-two-col .portfolio-item { margin-bottom: 20px; }
+.portfolio-three-col h2, .portfolio-two-col h2 { font-size: 25px; }
+/* Portfolio Type Large */
+.portfolio-large .portfolio-thumbnail { margin-right: 20px; }
+.portfolio-large h2 { font-size: 30px; }
+/* Portfolio Type Grid */
+.portfolio-grid .portfolio-text { float: left; }
+.portfolio-grid h2 { font-size: 20px; }
+
+
+/*************************** Shortcodes: Contact Form ***************************/
+
+#contact-form { float: left; width: 100%; margin-bottom: 12px; }
+#contact-form .contact-verify { float: left; margin-right: 10px; }
+#contact-form .contact-submit { float: left; }
+#contact-form label { padding-left: 10px; }
+#contact-form textarea { width: 95%; max-width: 560px; }
+.required { color: #ff0000; }
+#contact-form .loader { display: none; background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/loader-light.gif) no-repeat right bottom; float: left; padding: 3px 0 0 10px; width: 16px; height: 16px; }
+.contact-success, .contact-error { margin: 0 0 10px 0; display: block; min-height: 22px; line-height: 22px; padding: 3px 10px 3px 35px; }
+.contact-success { background: #e3f8bf url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/success.png) no-repeat 10px center; border: 1px solid #9bd23a; color: #5e8a11; }
+.contact-error { background: #FBE3E4 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/error.gif) no-repeat 10px center; border: 1px solid #FBC2C4; color: #8a1f11; }
+#contact-form .input-error { border: 1px solid #ce3439; }
+
+
+/*************************** Shortcodes: Drop Caps ***************************/
+
+.dropcap1 { display: block; position: relative; float: left; font-size: 40px; margin: 0 10px -8px 0; padding: 0; text-align: center; }
+.dropcap2 { display: block; position: relative; float: left; font-size: 38px; margin: 4px 10px 0 0; padding: 6px 12px; text-align: center; background: #d7d7d7; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.dropcap3 { display: block; position: relative; float: left; font-size: 38px; margin: 4px 10px 0 0; padding: 6px 12px; text-align: center; color: #999; background: #404040; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.dropcap4 { display: block; position: relative; float: left; font-size: 38px; margin: 4px 10px 0 0; padding: 6px 12px; text-align: center; background: #d7d7d7; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
+.dropcap5 { display: block; position: relative; float: left; font-size: 38px; margin: 4px 10px 0 0; padding: 6px 12px; text-align: center; color: #999; background: #404040; -webkit-border-radius: 25px; -moz-border-radius: 25px; border-radius: 25px; }
+
+
+/*************************** Shortcodes: Author Info ***************************/
+
+.author-info { float: left; border: 1px solid #d7d7d7; background: #F9F9F9; padding: 1.3%;width:586px; margin: 10px 0 0 -10px; }
+.author-info .avatar { float: left; margin-right: 10px; }
+.author-info .author-name { float: left; font-family: "Lucida Grande", "Lucida Sans Unicode", Arial; font-weight: bold; padding-bottom: 10px; }
+.author-info .author-links { float: right; color: #999999; font-size: 11px; padding-bottom: 10px; }
+.author-info .author-desc { font-size: 11px; line-height: 16px; }
+
+
+/*************************** Shortcodes: Related Posts ***************************/
+
+/* Related Posts Container */
+#related-posts { float: left; width: 591px; margin: 8px -20px 0;background:#e7e7e7;padding:10px 16px 12px;clear:both;border:1px solid #b4b4b4;-moz-box-shadow: inset 0 0 1px 1px #FFF;-webkit-box-shadow: inset 0 0 1px 1px #FFF;box-shadow: inset 0 01px 1px #FFF; }
+#related-posts h3 { padding-bottom: 20px;clear:both;padding:12px 0 6px;margin-bottom:12px;border-bottom:1px solid #CCC }
+/* Individual Posts */
+.related-post { float: left; width: 48%; margin-right: 2%; }
+.related-post .divider { margin: 10px 0; }
+.related-image { background: #d7d7d7 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/related-post.png) no-repeat center center; float: left; padding: 3px; margin-right: 10px; line-height: 0; width: 55px; height: 55px; }
+.related-image:hover { background: #000 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/related-post.png) no-repeat center center; }
+.related-image img { width: 55px; height: 55px; }
+.related-post h5 { padding-bottom: 5px; }
+.related-date { color: #999; font-size: 11px; }
+
+
+/*************************** Shortcodes: Tabs ***************************/
+
+.ui-tabs { position: relative; padding: .2em; padding-top:0 !important; top:-4px; zoom: 1; }
+.ui-tabs .ui-tabs-nav { display: block; margin: 0; padding: 0 0 0 2px; }
+.ui-tabs .ui-tabs-nav li { z-index: 1; border: 1px solid #d8d8d8; background-image: none; list-style: none !important; float: left; position: relative; top: 4px; margin: 0 .2em 1px 0 !important; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li:hover { background: #f8f8f8; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: 8px; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li a:hover { color: #000; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { z-index: 3; background: #fff; margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+.ui-tabs-nav .tabhead { cursor:pointer; font-size: 14px !important; margin-bottom: 0; display: block; }
+.ui-tabs-panel { z-index: 2; position: relative; height: inherit; line-height: 19px; overflow: hidden; margin: 2px; margin-bottom: 10px; padding: 12px; border: 1px solid #d8d8d8; background-color: #fff; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+/*************************** Shortcodes: Login/Register Forms ***************************/
+
+#loginform, #registerform { float: left; margin: 10px 0; }
+#loginform label, #registerform label { padding-left: 5px; }
+label[for=user_login], label[for=user_pass] { float: right; margin-top: 5px; }
+#loginform .login-remember label { padding-left: 0; }
+
+
+/*************************** Shortcodes: Notifications ***************************/
+
+.notify { position: relative; margin: 10px 0; display: block; line-height: 19px; padding: 20px 20px 20px 95px; font-size: 11px; color: #fff; text-shadow: 1px 1px 2px #000; }
+.notify-star { background: #dcdcdc url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-star.png) repeat-x; border: 1px solid #c6c6c6; color: #000; text-shadow: 1px 1px 2px #fff; }
+.notify-warning { background: #cc6806 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-warning.png) repeat-x; border: 1px solid #964a00; }
+.notify-error { background: #7f0936 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-error.png) repeat-x; border: 1px solid #230510; }
+.notify-help { background: #539ce6 url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-help.png) repeat-x; border: 1px solid #2670bb; }
+.notify-success { background: #A4CB5E url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-success.png) repeat-x; border: 1px solid #9bd23a; }
+.notify .icon { position: absolute; top: 20px; left: 20px; width: 55px; height: 52px; }
+.notify-star .icon { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-star-icon.png) no-repeat; }
+.notify-warning .icon { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-warning-icon.png) no-repeat; }
+.notify-error .icon { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-error-icon.png) no-repeat; }
+.notify-help .icon { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-help-icon.png) no-repeat; }
+.notify-success .icon { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/notify-success-icon.png) no-repeat; }
+
+
+/*************************** Footer ***************************/
+
+/* Footer Bar */
+#footer-bar { position: relative; top: -54px;left:0px; width: 981px; height: 40px; font-size: 11px; background: #000;clear:both; width: 980px; padding: 6px 0 ; float: left; z-index: 100;text-align:left;border:1px solid #000;box-shadow:inset 0 0 2px #5a5a5a;position:relative;background: #2b2b2b;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJiMmIyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #2b2b2b 0%, #000000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2b2b2b), color-stop(100%,#000000));
+background: -webkit-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: -o-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: -ms-linear-gradient(top,  #2b2b2b 0%,#000000 100%);
+background: linear-gradient(to bottom,  #2b2b2b 0%,#000000 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#000000',GradientType=0 ) }
+#copyright { float: left; position: relative; top: 15px; left: 20px; color: #717171; width: 500px; }
+#social { float: right; text-align: right; position: relative; top: 5px; right: 20px; width: auto; }
+#social img { float: left; margin-left: 10px; }
+
+/* Footer Wrapper */
+#footer-border { background: #000; width: 100%; height: 20px; filter:alpha(opacity=35); -moz-opacity: 0.35; -khtml-opacity: 0.35; opacity: 0.35; }
+#footer { background: #000; color: #888; float: left; position: relative; width: 100%; text-align: left; }
+#footer h3 { padding-bottom: 20px; }
+#footer a { color: #666; }
+#footer a:hover { color: #fff; }
+#footer li { background: none; padding-left: 0; border-top: 0; border-bottom: 1px solid #202020; }
+
+/* Footer Widgets */
+#footer-widgets { margin: 0 auto; position: relative; width: 962px; padding: 40px 0; }
+.footer-widget-outer { float: left; margin: 0 0 0 40px; }
+.footer-widget-inner { float: left; width: 100%; padding-bottom: 20px; }
+#footer-widgets div:first-child { margin-left: 0; }
+.footer-whole { width: 962px; }
+.footer-half { width: 461px; }
+.footer-third { width: 294px; }
+.footer-fourth { width: 210.5px; }
+
+/* Footer Forms */
+.footer-widget-inner label { font-weight: bold; }
+.footer-widget-inner input, .footer-widget-inner select, .footer-widget-inner textarea { background: #111; border: 2px solid #202020; color: #666; }
+.footer-widget-inner .textfield { width: 125px; }
+.footer-widget-inner textarea { height: 75px; }
+.footer-widget-inner input[type="submit"] { background-color: #262626; color: #666; border: 2px solid #2d2d2d; }
+.footer-widget-inner input[type="submit"]:hover { background: #191919; color: #666; }
+.footer-widget-inner #contact-form .loader { background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/loader-dark.gif) no-repeat right bottom; }
+/*************************** Widgets ***************************/
+
+/* General Widget Styling */
+.widget { float: left; width: 100%; padding-bottom: 22px; }
+.widget h3{ height: 20px; background: url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/widget-title-bg.png) repeat-x left bottom; padding: 15px 20px; margin: -16px 0 14px -12px; text-shadow: 1px 1px 1px #fff; }
+.widget h3 a, .widget h3 a:hover {color:#000}
+.textwidget { line-height: 19px; }
+.widget ul .li-first { border-top: 0; padding-top: 0; background-position: -127px -23px; }
+.widget ul .li-last { border-bottom: 0; }
+
+/* Search Widget */
+#main-content #searchform, .widget #searchform { float: left; background-color: #fff; border: 1px solid #d7d7d7; }
+#main-content #searchbar, .widget #searchbar { background-color: #fff; background-image: none; }
+#main-content #searchsubmit, .widget #searchsubmit { border-left: 1px solid #d7d7d7; }
+
+/* Calendar Widget */
+#wp-calendar { margin: 0 auto; }
+#wp-calendar caption { text-align: right; margin-bottom: 10px; }
+/* Recent Comments Widget */
+.recentcomments { background-position: -137px 11px; background-repeat: no-repeat; }
+.widget ul .recentcomments.li-first { background-position: -137px 2px; }
+
+
+/*************************** Comments Section ***************************/
+
+/* Comment List */
+#comments { float: left; width: 100%; }
+#comments p label {display: block;font-size: 12px;display:block;padding-top:14px}
+#comment_mail_notify {margin:16px 6px 0 0;float:left;} 
+h3.comments { padding: 0 0 20px 0; }
+#commentlist, #commentlist li { list-style: none; list-style-type: none; background: none; margin: 0; padding: 0; }
+/* Comment Box */
+#commentlist .comment { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #d7d7d7;clear:both; }
+.comment-avatar { float: left; }
+.comment-author { font-size: 14px; padding-bottom: 3px; }
+.comment-date { color: #999; font-size: 11px; font-style: italic; }
+.comment-body { padding: 0 0 2px 10px; overflow: hidden; }
+.comment-text { clear: both; padding: 10px 0 0 0; }
+.reply-link { height: 20px; }
+.reply-link a { float: right; font-size: 11px; }
+
+/* Child Comments */
+#commentlist .children { padding-top: 20px; }
+#commentlist .children .comment { margin-left: 20px; padding-top: 20px; background: none; border-top: 1px solid #d7d7d7; }
+#commentlist .children .comment-avatar img { width: 45px; height: 45px; }
+/* Comment Post Author */
+#commentlist .post-author { display: none; }
+#commentlist .bypostauthor .post-author { display: block; line-height: 1; font-size: 11px; margin-top: 10px; padding: 3px; text-align: center; background: #d7d7d7; font-weight: bold; font-family: "Lucida Grande", "Lucida Sans Unicode", Arial; text-transform: uppercase; }
+/* Comment Form */
+#commentform { float: left; width: 100%; }
+#respond {padding-top:10px;}
+#respond h3 { margin: 0; padding: 12px 0 0 0; }
+#respond form { padding-top: 20px;padding-bottom:20px; }
+#respond .label {font-weight:bold;text-transform:uppercase;font-size:16px;padding:12px 0 6px 0}
+#respond .name, #respond .email {width:287px;float:left}
+#respond .name input, #respond .email input {width:260px}
+#respond .mess {clear:both;}
+#respond textarea { width: 560px; max-width: 560px; height: 150px; }
+.cancel-comment-reply a { text-transform: uppercase; font-size: 9px; }
+
+
+/*************************** Page Navigation ***************************/
+
+/* Page & Comments Navigation */
+.wp-pagenavi { padding: 20px 20px 0 20px; float: right; }
+.single-wrapper .wp-pagenavi { padding-right: 0; }
+.wp-pagenavi span, .wp-pagenavi a, .wp-pagenavi.post-navi a span { color: #fff; display: block; float: left; font-weight: bold; padding: 7px 10px; margin-left: 10px; text-align: center; border-top: 1px solid #dadada; border-left: 1px solid #dadada; border-right: 1px solid #fff; border-bottom: 1px solid #fff; background-color: #000; }
+.wp-pagenavi .current, .wp-pagenavi a:hover, .wp-pagenavi.post-navi span, .wp-pagenavi.post-navi a span:hover { background: #d7d7d7; color: #333; }
+.wp-pagenavi.post-navi a, .wp-pagenavi.post-navi a:hover { background: none; border: 0; padding: 0; margin: 0; }
+
+
+/*************************** Theme Options Box ***************************/
+
+/* Panel */
+.theme-box { position: fixed; z-index: 400; top: 50px; left: 0; border: 1px solid #c0c0c0; border-left: 0; display: none; background: #fff; color: #000; text-align: left; font-size: 12px; padding: 20px 30px 20px 90px; }
+.theme-box h3 { font-size: 20px; padding-bottom: 15px; }
+.theme-box .label { display: block; float: left; width: 150px; padding: 6px 10px 30px 0; line-height: 16px; }
+.theme-box .label-desc { clear: both; display: block; color: #808080; font-size: 10px; }
+.theme-box select { float: left; border: 1px solid #c0c0c0; background: #fff; padding: 5px; color: #000; font-size: 12px; }
+a.reset-cookies { color: #000; float: right; font-size: 13px; text-decoration: none; }
+a.reset-cookies:hover { color: #000; font-size: 13px; text-decoration: underline; }
+/* Button */
+.trigger { position: fixed; z-index: 401; top: 100px; left: -50px; font-weight: bold; background: #fff; color: #000; font-size: 12px; line-height: 12px; text-transform: uppercase; font-family: Arial; padding: 10px; text-decoration: none; display: block; -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -o-transform:rotate(-90deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.trigger:hover { color: #000; text-decoration: none; background: #ddd; }
+.active.trigger { border: 1px solid #c0c0c0; border-left: 0; top: 80px; left: 0; background: #ddd; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform:rotate(0deg); filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
+.active.trigger .trigger-open, .trigger .trigger-close { display: none; }
+.active.trigger .trigger-close, .trigger .trigger-open { display: block; }
+
+
+/*************************** WP Admin Bar ***************************/
+
+#wpadminbar ul li { border-bottom: 0; border-top: 0; }
+
+/*************************** Added Styles ***************************/
+.fb-like, .google-plus, .t-tweet {float:left;width:60px}
+.t-tweet {margin-right:6px}
+.aDesc p {padding:12px 18px}
+.mejs-container {margin:0 0 12px 0;}
+#footer a.pBtn, .buyTickets, .btn, .bigBtn  {background:#f10044;padding:6px 12px;color:#FFF;margin;12px 6px 0;-moz-border-radius:6px;border-radius:6px;-webkit-border-radius:6px;cursor:pointer;}
+.bigBtn {float:left;padding:12px 22px;font-size:18px;margin:12px 12px 12px 0;}
+#footer a.pBtn:hover, .buyTickets:hover, .btn:hover, .bigBtn:hover {background:#61001b;color:#FFF}
+
+/* Facebook tweaks -----------------*/
+.single-wrapper.post-content .fb_iframe_widget {margin:0 0 12px 10px;}
+.single-wrapper.post-content .fb_iframe_widget iframe {position:relative;top:-2px}
+
+#header-widget .header-widget h3 {float:left;width:auto;padding-right:12px}
+.header-widget ul {float:left;}
+.header-widget ul li {background:none;padding:5px 12px;float:left;border:none;text-transform:uppercase;font-weight:bold;}
+.really_simple_twitter_widget li {line-height:1.3em;}
+.really_simple_twitter_widget li.li-first {background-position: -127px -22px;}
+body.home #sidebar .social {margin-top:10px}
+#sidebar a.cal {display:block;margin:14px 14px;background:#FFF;color:#000;position:relative;padding:16px 10px 20px 80px;box-shadow:inset 0 0 2px #666}
+#sidebar a.cal strong {display:block;font-size:20px}
+#sidebar a.cal i {font-size:11px;font-style:normal}
+#sidebar a.cal .icon {display:block;width:80px;height:80px;background-position:-88px 0px;position:absolute;top:-10px;left:-10px;}
+#sidebar a.cal:hover {color:#ed1848}
+.hclear {clear:both;}
+.hide, .post-content .size-thumbnail {display:none;}
+body ul#sharebar li {background:none;}
+
+/* Contact Form -------------*/
+.submission p {font-weight:bold;font-size:16px;letter-spacing:-0.05em;line-height:1.2em}
+.submission p.desc {font-weight:normal;font-size:14px;line-height:1.4em}
+.submission p span {font-weight:normal;font-size:12px;letter-spacing:0;}
+.submission p span.note {font-size:11px;color:#666}
+#wpadminbar {background-color:#000}
+
+/* Comments Form -------------*/
+#comments #sfc_comm_send, #comments #submit {float:left;padding:12px 12px;font-size:16px;display:block;}
+#comments #submit {border-radius:6px;width:240px;text-transform:uppercase;margin-right:12px;}
+#comments #sfc_comm_send {padding:4px 0 0 12px;width:300px;}
+#comments #sfc_comm_send img, #comments #sfc_comm_send span {float:left;}
+#comments #sfc_comm_send span {margin-top:2px;}
+
+/* Header Widget */
+#extended-categories-4 {position: absolute;top:124px;left:12px }
+#extended-categories-4 h3 {float:left;width:200px;clear:both}
+
+/* Sign in  ------------- */
+.sign {color:#FFF;display:block;position:absolute;right:4px;top:22px;padding:6px 22px;font-size:11px;text-transform:uppercase;}
+.sign.active , .sign:hover {background:#282828;color:#FFF;}
+
+/* Login Form -----*/
+.fly {position:absolute;top:46px;right:4px;z-index:9999;background:#282828;padding:6px 12px;display:none;text-align:left;box-shadow:0 2px 2px #000;}
+#userMenu.fly {width:100px}
+#userMenu.fly a {display:block;padding:4px;}
+#userMenu.fly a:hover {color:#FFF;}
+#loginlogout-3 #loginform {width:240px;height:150px}
+#loginlogout-3 #loginform label {color:#FFF;padding:4px 0}
+#loginform label {text-transform:uppercase;}
+#loginform label a {font-size:11px;color:#ff597f;position:relative;top:-1px;padding:0 0 0 4px}
+#loginform label a:hover {text-decoration:underline;}
+#loginform fieldset {padding:6px 4px;border:none;}
+#loginform fieldset .input {padding:2px 4px;margin:4px 0 0 0;width:220px}
+#loginform fieldset #wp-submit {margin:14px 0 0 0;padding:3px 12px;font-size:11px;}
+#loginlogout-3 .fbLoginButton {position:absolute;bottom:21px;right:28px;}
+#loggedIn {color:#333;padding:4px 10px 10px;line-height:1.2em;font-size:12px;position:absolute;right:0;top:0;}
+#loggedIn span {color:#CCC}
+#loggedIn a {color:#999}
+
+/* Twitter tweets --------*/
+.twitter-tweets li {line-height:1.2em}
+
+/* You Tube video hider ----*/
+.player-wrapper {height:27px;overflow:hidden;position:relative;margin:0 0 12px 0}
+.player {bottom:0;position:absolute;}
+
+/* Search ------------- */
+#nav #searchform {position:absolute;top:-114px;right:10px;padding:2px;background:#000;z-index:10}
+
+/* Footer ------------- */
+#copyright {color:#CCC}
+#copyright a {padding:0 6px;color:#CCC}
+#copyright a:hover {color:#FFF;}
+.post-content h2 {clear:both;}
+.hidden {display:none!important;}
+
+/* Twitter widget ----------- */
+.tweet {border-bottom: 1px solid #D7D7D7;padding:8px 0 0}
+.tweet p {padding-left:32px}
+.tweet img {float: left;margin: 0 8px 4px 0;position:relative;bottom:-3px}
+.tweet .time a {font-size:11px;color:#666}
+#sidebar .widget .fb_iframe_widget{margin:0 0 0 16px;}
+
+/* WP125 ----------- */
+#wp125adwrap_2c {padding:0 0 22px 22px}
+#featArtists {padding:0 0 0 14px}
+#wp125adwrap_2c div a, #featArtists a {width:125px;float:left;background:#ededed;-moz-box-shadow: inset 0 0 2px 2px #CCC;-webkit-box-shadow: inset 0 0 2px 2px #CCC;box-shadow: inset 0 0 2px 2px #CCC;padding:6px;margin:0 16px 16px 0;}
+#sidebar #featArtists a:hover {background-color:#999;}
+#wp125adwrap_2c {margin:-28px -7px}
+#sidebar .textwidget a.view {clear:both;width:278px;height:20px;}
+#sidebar .textwidget a.view:hover {color:#FFF;background:#999}
+
+/* Ads ---------*/
+
+.banner {margin:4px auto -56px;width:728px;height:90px}
+.banner div {float:none!important;}
+.banner .adhere {margin-bottom:6px}
+.banner .leadLink {color:#666;display:block;text-align:right;font-size:12px;padding:3px 0}
+.banner .leadLink:hover {text-decoration:underline;}
+#sidebar .bsap {width:320px;float:left;padding:0 0 0 16px}
+#sidebar .textwidget a {display:block;font-size:11px;color:#888;font-family:verdana,sans-serif;margin:0 16px 16px 0;text-align:center;text-decoration:none;overflow:hidden;width:125px;height:125px;background:#ededed;-moz-box-shadow: inset 0 0 2px 2px #CCC;-webkit-box-shadow: inset 0 0 2px 2px #CCC;box-shadow: inset 0 0 2px 2px #CCC;padding:6px;float:left}
+#sidebar .textwidget img {margin:0;padding:0;background:#FFF}
+#sidebar .textwidget a.adhere{color:#666;font-weight:bold;font-size:12px;border:4px solid #ccc;background:#e7e7e7;text-align:center;width:118px;height:118px;line-height:1000%}
+#sidebar .textwidget a.adhere:hover{border:4px solid #999;background:#ddd;color:#333;}
+#sidebar .textwidget #bsCubeAd {height:270px;}
+#sidebar .textwidget #bsCubeAd a.adhere {width:300px;height:190px;padding-top:60px;margin:0 0 0 -14px;font-size:14px}
+#sidebar .ad {background:#ededed;-moz-box-shadow: inset 0 0 2px 2px #CCC;-webkit-box-shadow: inset 0 0 2px 2px #CCC;box-shadow: inset 0 0 2px 2px #CCC;width:300px;height:250px;padding:12px;}
+#twitterSearch {width:320px}
+#twitterSearch div:last-child {border-bottom:none;}
+#sidebar .textwidget .adLink {background:none;height:16px;box-shadow:none;padding:0;text-align:right;width:310px}
+#sidebar .textwidget .adLink:hover {text-decoration:underline;}
+#sidebar .textwidget #bsap_1273993 a {width:300px;height:250px;margin:0 0 0 -10px}
+#sidebar .textwidget .cubeAd a {width:300px;height:250px;margin-left:5px;margin-bottom:0;}
+
+/* Bottom of post ads -----*/
+.one{position:relative}
+.one .bsa_it_ad{display:block;padding:8px;border:1px solid #FFF;height:100px;background:#f9f9f9;-moz-box-shadow: inset 0 0 1px 1px #CCC;-webkit-box-shadow: inset 0 0 1px 2px #CCC;box-shadow: inset 0 0 1px 2px #CCC;font-family:helvetica,arial,sans-serif;line-height:100%;position:relative;width: 556px;}
+.one .bsa_it_ad a{text-decoration:none}
+.one .bsa_it_ad a:hover{text-decoration:none}
+.one .bsa_it_ad .bsa_it_t{display:block;font-size:18px;font-weight:bold;color:#212121;line-height:125%;padding:14px 0 2px 0}
+.one .bsa_it_ad .bsa_it_d{display:block;font-size:11px;color:#434343;font-size:12px;line-height:135%}
+.one .bsa_it_ad .bsa_it_i{float:left;margin:0 15px 10px 0}
+.one .bsa_it_p{display:block;text-align:right;position:absolute;bottom:10px;right:20px}
+.one .bsa_it_p a{font-size:10px;color:#666;text-decoration:none}
+.one .bsa_it_ad .bsa_it_p a:hover{font-style:italic}
+#related-posts .bsap {clear:both;}
+#fcube {padding-left:16px}
+
+/* Feedback Flyout -----------*/
+#feedback { position:fixed;right:0; margin:10px 0 0 0;top:205px;z-index:9999overflow:hidden;padding:0 0 0 28px;width:0px;z-index:999;text-align:left;}
+#feedback .inner {background:#d9efd8;border:1px solid #6a6a6a;background:#e7e7e7;padding:26px 12px 12px 12px;width:220px;position:relative;left:0;}
+#feedback form input, #feedback form textarea {width:200px;padding:6px}
+#feedback form textarea {height:100px;}
+#feedback strong {font-size:12px;display:block;padding:0;font-family: Arial, Helvetica, sans-serif;}
+#feedback p {font-size:11px;line-height:1.2em;}
+#feedback .btn.close {position:absolute;right:3px;top:3px;display:block;height:12px;width:12px;padding:0;background:#000;color:#FFF;font-weight:bold;padding:2px;text-align:center;}
+#feedback .btn.close:hover {background:#f02551;}
+#feedback .canv {color:#FFF;display:block;width:29px;height:107px;background:url(http://www.mixjunkies.com/wp-content/themes/tarnished/images/fb-sprite.jpg) #000;position:absolute;left:-30px;top:70px;cursor:pointer;text-indent:-999px;overflow:hidden;}
+#feedback .canv:hover {background-position:-29px 0;}
+#feedback div.wpcf7-mail-sent-ok {border:none;background:#e7e7e7;height:230px; position:absolute;top:0px;left:0px;padding:60px 12px;text-align:center;}
+#feedback div.wpcf7-validation-errors, #feedback .wpcf7-not-valid-tip {background:#bd163a;color:#FFF;border:none;margin:0;padding:6px;font-size:11px;}
+#feedback .wpcf7-not-valid-tip {left:0px;width:202px;top:-7px}
+#feedback #captcha {margin-top:0;float:left;background:#FFF;padding:3px;}
+#feedback .captcha input {width:114px;float:left;margin:0 0 12px 6px}
+#feedback .captcha .wpcf7-not-valid-tip {top:6px;left:-114px;width:118px}
+#feedback .inner .btns a {display:block;text-transform: uppercase;text-align:center;padding:5px 0;width:200px;box-shadow:inset 0 0 2px #FFF;margin-bottom:3px;font-weight:bold;}
+#feedback .inner .btns a.red {background:#ed1846;color:#FFF}
+#feedback .inner .btns a.red:hover {background:#a60326}
+#feedback .inner .btns a.yellow {background:#f4e933;color:#000}
+#feedback .inner .btns a.yellow:hover {background:#d0c300}
+#samplepost {width:560px;height:360px;}
+
+/* In page poll ------*/
+.single-wrapper .sp-poll {width:540px}
+.single-wrapper .sp-poll ul li {background:none}
+.single-wrapper .sp-poll .sp-label {width:460px;margin:0;padding:0;font-weight:bold;}
+.single-wrapper .sp-poll .sp-item {padding:4px 0 16px;margin-bottom:22px}
+.single-wrapper .sp-poll .sp-input-radio {margin-top:2px}
+.single-wrapper .sp-poll fieldset {border:none;}
+.single-wrapper .sp-poll .sp-answer-response {border-top:18px solid #C09}
+.single-wrapper .sp-poll .sp-question {font-size:16px;padding:0 0 7px}
+
+.portfolio.portfolio-large .portfolio-item .portfolio-thumbnail {float:left;paddding:20px}
+.portfolio.portfolio-large .portfolio-item h2 {clear:none;padding-bottom:0;margin-top:22px}
+.portfolio.portfolio-large .divider {margin:10px 0;}
+.padTop {padding-top:22px;}
+.question {font-size:16px;}
+
+/* Events -------------*/
+.single-event h1, .single-event #sidebar {margin-top:50px}
+.single-event h2 {clear:none;}
+.single-event .slimhead {position:absolute;top:0;left:0}
+.fc table {border:none;}
+#main-content .fc-widget-header {background:#000;padding:4px 0;color:#FFF;text-transform:uppercase;font-size:16px}
+#main-content .fc-grid .fc-day-number {font-size:16px;padding:6px}
+#main-content .fc-header-title h2 {font-weight:bold;font-size:32px;}
+#main-content .fc-state-highlight {background:#fabbc8}
+#main-content .fc-header .fc-button {text-transform:uppercase;font-size:16px;}
+#main-content #loading {position:absolute;z-index:9999;background:url(http://www.mixjunkies.com/wp-content/uploads/2012/05/285.gif) no-repeat center #FFF;opacity:0.7}
+#main-content .em-location-map {width:300px!important;border:1px solid #CCC;}
+.locImg {width:571px;background:#EFEFEF}
+.locImg img {width:263px;margin:0 -12px 12px 0px;}
+.mejs-container {margin-bottom:20px;}
+#bigText p {font-size:18px;line-height:1.3em;}
+#main-content .fc-event-title {font-size:1.2em;}
+
+/* Events ------------- */
+.dateTime, .club {float:left;width:260px;height:100px;background:#EFEFEF;padding:12px;margin:-14px 0 16px 0;box-shadow:inset 0 0 2px #FFF;border:1px solid #CCC;}
+.dateTime h2, .club h2 {text-shadow:1px 0 2px #FFF}
+.club {margin-left:-1px;}
+.club a {font-size:15px}
+.locations {clear:both;}
+.locations ul li {padding:0;background:none;}
+.single-event #main-content .em-location-map {margin-right:3px}
+#main-content .event-categories {padding:0;margin:0;}
+#main-content .event-categories li {background:none;padding:0;margin:0;}
+.buyTickets {padding:8px 42px;margin:12px 0}
+#main-content .ui-widget-content {height:380px}
+#main-content .fc-event-title {font-size:11px;padding:4px;display:block;line-height:1.3em;}
+.seeMore {display:block;padding:4px;background:#f11847;color:#FFF;width:62px;border-radius:4px;font-size:11px}
+body .ui-selectmenu-menu li {background:none;font-size:12px;text-align:left;}
+#emfc-filters {background:#CCC;padding:10px 0 10px 20px;}
+#emfc-filters select {width:280px;}
+body .ui-selectmenu-menu li a:hover {color:#CCC;}
+body .ui-selectmenu.ui-widget.ui-state-default.ui-selectmenu-dropdown:hover {color:#CCC}
+.eventImg {float:left;margin:2px 12px 0 0;width:100px;height:100px;position:relative;text-align:center;font-size:10px;}
+.eventName {font-weight:bold;display:block;padding:12px 12px 0 0;width:220px;font-size:14px;}
+.events-table {width:910px}
+.events-table th {background:#000;color:#FFF;padding:12px;font-size:16px;font-weight:bold;}
+.events-table td {padding:12px 22px;font-size:14px;line-height:1.4em;background:#EFEFEF;border-bottom:1px solid #CCC;border-top:1px solid #FFF;}
+.events-table td a {font-weight:bold;}
+.events-table td i a {font-weight:normal;}
+body #main-content .fc-grid .ui-widget-content.ui-state-highlight.fc-today {background:#CCC;border:1px solid #FFF;box-shadow:inset 0 0 2px #FFF;}
+body #main-content .fc-grid .ui-widget-content.ui-state-highlight.fc-today .fc-day-number {color:#FFF;}
+.twitBox {padding:33px 0;}
+.wpv_votecount {display:none;} /*hides top count on ratings */

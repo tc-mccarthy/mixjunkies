@@ -1,0 +1,21 @@
+/* 
+    Document   : mobile
+    Created on : Aug 23, 2013, 5:54:50 PM
+    Author     : mcassella
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/* global changes ----*/
+.box, h3#responses, .search .post {padding:12px 12px 12px 20px }
+.post img.post-thumbnail, .post .placeholder {margin:-12px 16px -13px -22px;height:100px;width:100px;}
+.text-expand, #fap-wrapper, fb-root {display:none;}
+
+/*Mobile ------ */
+#player {margin:0 0 22px 0;float:none;width:290px;}
+.playit {clear:both;}
+.playit a.download {float:none;margin:12px 0 0 0;width:84%;height:20px;display:none!important;}
+.playit a span {width:30px;height:30px;left:12px;top:7px;}
+.playit a.playlist span {background-position:-90px 2px;float:left}
+.playit a.download span {background-position:-87px -26px;}
+.playit strong {display:none;}
+.wptouch-pro .playit strong {display:block;font-size:18px;padding:7px 12px}

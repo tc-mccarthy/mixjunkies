@@ -1,0 +1,47 @@
+/*************************** General Styling ***************************/
+
+/* Form Styling */
+input[type="submit"],
+input[type="reset"] {
+padding: 6px 5px;
+}
+
+
+/*************************** Content Areas ***************************/
+
+/* Content Wrapper */
+#content-wrapper {
+margin-top: -10px;
+padding-top: 10px;
+}
+
+
+/*************************** Shortcodes: Fade Slider ***************************/
+
+/* Slider */
+#top-content .nav-type-1.slider-wrapper {
+padding-bottom: 75px;
+}
+.nav-type-1.slider-wrapper {
+padding-bottom: 60px;
+}
+
+/* Slider Nav Chain */
+.slider-nav-overflow {
+overflow: hidden;
+position: relative;
+height: 100%;
+}
+
+/*************************** Comments Section ***************************/
+
+/* Comment Box */
+.comment-body {
+margin-top: -10px;
+}
+
+/* Comment Post Author */
+.bypostauthor .post-author {
+width: 98%;
+padding: 1%;
+}

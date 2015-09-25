@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fullwidth Audio Player\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-08 17:14+0100\n"
+"PO-Revision-Date: 2012-06-08 17:23+0100\n"
+"Last-Translator: Rafael <dj-rady@gmx.de>\n"
+"Language-Team: radykal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../fullwidth-audio-player.php:136
+msgid "Tracks"
+msgstr "Tracks"
+
+#: ../fullwidth-audio-player.php:137
+msgid "Track"
+msgstr "Track"
+
+#: ../fullwidth-audio-player.php:138
+msgid "Add New"
+msgstr "Erstellen"
+
+#: ../fullwidth-audio-player.php:139
+msgid "Add New Track"
+msgstr "Neuen Track erstellen"
+
+#: ../fullwidth-audio-player.php:140
+msgid "Edit Track"
+msgstr "Track bearbeiten"
+
+#: ../fullwidth-audio-player.php:141
+msgid "New Track"
+msgstr "Neuer Track"
+
+#: ../fullwidth-audio-player.php:142
+msgid "All Tracks"
+msgstr "Alle Tracks"
+
+#: ../fullwidth-audio-player.php:143
+msgid "View Track"
+msgstr "Track ansehen"
+
+#: ../fullwidth-audio-player.php:144
+msgid "Search Tracks"
+msgstr "Tracks suchen"
+
+#: ../fullwidth-audio-player.php:145
+msgid "No Tracks found"
+msgstr "Keine Tracks gefunden"
+
+#: ../fullwidth-audio-player.php:146
+msgid "No Tracks found in Trash"
+msgstr "Keine Tracks im Papierkorb gefunden"
+
+#: ../fullwidth-audio-player.php:170
+#: ../fullwidth-audio-player.php:180
+msgid "Playlists"
+msgstr "Playlists"
+
+#: ../fullwidth-audio-player.php:171
+msgid "Playlist"
+msgstr "Playlist"
+
+#: ../fullwidth-audio-player.php:172
+msgid "Search Playlists"
+msgstr "Playlists suchen"
+
+#: ../fullwidth-audio-player.php:173
+msgid "All Playlists"
+msgstr "Alle Playlists"
+
+#: ../fullwidth-audio-player.php:174
+msgid "Parent Playlist"
+msgstr "Übergeordnete Playlist"
+
+#: ../fullwidth-audio-player.php:175
+msgid "Parent Playlist:"
+msgstr "Übergeordnete Playlist:"
+
+#: ../fullwidth-audio-player.php:176
+msgid "Edit Playlist"
+msgstr "Playlist bearbeiten"
+
+#: ../fullwidth-audio-player.php:177
+msgid "Update Playlist"
+msgstr "Playlist aktualisieren"
+
+#: ../fullwidth-audio-player.php:178
+msgid "Add New Playlist"
+msgstr "Neue Playlist hinzufügen"
+
+#: ../fullwidth-audio-player.php:179
+msgid "New Playlist Name"
+msgstr "Neuer Playlist Name"
+
+#: ../fullwidth-audio-player.php:210
+msgid "Options"
+msgstr "Optionen"
+
+#: ../fullwidth-audio-player.php:273
+msgid "Always save before switching to another tab!"
+msgstr "Immer abspeichern bevor du einen neuen Reiter auswählst!"
+
+#: ../fullwidth-audio-player.php:275
+msgid "Save Changes"
+msgstr "Änderungen übernehmen"
+
+#: ../fullwidth-audio-player.php:276
+msgid "Reset Options"
+msgstr "Optionen zurücksetzen"
+
+#: ../fullwidth-audio-player.php:280
+msgid "Check out <a href=\"http://dj-templates.com\" target=\"_blank\">dj-templates.com</a> for more items for Djs and Producer. Follow me at <a href=\"http://www.facebook.com/pages/dj-templatescom/163102803744768\" target=\"_blank\">Facebook</a> and <a href=\"http://twitter.com/#!/djtemplates\" target=\"_blank\">Twitter</a> for new products, updates and news!"
+msgstr "Schau dir <a href=\"http://dj-templates.com\" target=\"_blank\">dj-templates.com</a> , um mehr Produkte für Djs und Produzenten zu finden. Folge mir auf <a href=\"http://www.facebook.com/pages/dj-templatescom/163102803744768\" target=\"_blank\">Facebook</a> und <a href=\"http://twitter.com/#!/djtemplates\" target=\"_blank\">Twitter</a> für neue Produkte, Updates und Neuigkeiten!"
+
+#: ../fullwidth-audio-player.php:358
+msgid "Track URL & Referral Link"
+msgstr "Track URL & Verweisungslink"
+
+#: ../fullwidth-audio-player.php:367
+#: ../fullwidth-audio-player.php:368
+msgid "Fullwidth Audio Player - Your Playlists"
+msgstr "Fullwidth Audio Player - Deine Playlists"
+
+#: ../fullwidth-audio-player.php:380
+msgid "<strong>Required</strong> - Set here the URL of the MP3 or the Soundcloud track(s):"
+msgstr "<strong>Erforderlich</strong> - Gebe hier die URL der MP3 Datei oder der Soundcloud Track(s) ein:"
+
+#: ../fullwidth-audio-player.php:383
+msgid "<strong>Optional</strong> - Set here the referral link that should be shared on facebook and twitter:"
+msgstr "<strong>Optional</strong> - Gebe hier den Verweisungslink ein, der auf Facebook und Twitter geteilt wird:"
+
+#: ../fullwidth-audio-player.php:393
+msgid "Here you can add a playlist to your page or change the default playlist for the player."
+msgstr "Hier kannst du eine Playlist in deine Seite einfügen oder die Standard-Playlist für den Player ändern."
+
+#: ../fullwidth-audio-player.php:395
+msgid "1. Select a playlist"
+msgstr "1. Wähle eine Playlist aus:"
+
+#: ../fullwidth-audio-player.php:411
+msgid "2.1 Add a playlist to this page"
+msgstr "2.1 Eine Playlist zu dieser Seite hinzufügen"
+
+#: ../fullwidth-audio-player.php:412
+msgid "Choice a layout:"
+msgstr "Wähle eine Playlist:"
+
+#: ../fullwidth-audio-player.php:422
+msgid "Enqueue playlist into the player"
+msgstr "Reihe Playlist in den Player ein"
+
+#: ../fullwidth-audio-player.php:424
+msgid "Set a text for the playlist play button. If you do not want this button, just leave it empty:"
+msgstr "Schreibe ein Text für den Playlist Play Button. Wenn du diesen Button nicht möchtest, dann lass es einfach leer:"
+
+#: ../fullwidth-audio-player.php:427
+msgid "Add Playlist"
+msgstr "Playlist hinzufügen"
+
+#: ../fullwidth-audio-player.php:429
+msgid "2.2 Change the default playlist for this page"
+msgstr "2.2 Die standardmässige Playlist für diese Seite ändern"
+
+#: ../fullwidth-audio-player.php:430
+msgid "Change Default Playlist"
+msgstr "Standard-Playlist ändern"
+
+#: ../fullwidth-audio-player.php:452
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../fullwidth-audio-player.php:453
+msgid "Date"
+msgstr "Datum"
+
+#: ../admin/audioplayer.php:7
+msgid "Default Playlist"
+msgstr "Standard-Playlist"
+
+#: ../admin/audioplayer.php:7
+msgid "Select a default playlist that should be loaded into the player from beginning."
+msgstr "Wähle eine Standard-Playlist welche von Anfang in den Player hineingeladen wird."
+
+#: ../admin/audioplayer.php:27
+msgid "Positions"
+msgstr "Positionen"
+
+#: ../admin/audioplayer.php:31
+#: ../admin/audioplayer.php:56
+msgid "Wrapper"
+msgstr "Hülle"
+
+#: ../admin/audioplayer.php:33
+msgid "Top"
+msgstr "Oben"
+
+#: ../admin/audioplayer.php:34
+msgid "Bottom"
+msgstr "Unten"
+
+#: ../admin/audioplayer.php:35
+msgid "Pop-Up"
+msgstr "Pop-Up"
+
+#: ../admin/audioplayer.php:39
+msgid "Player"
+msgstr "Player"
+
+#: ../admin/audioplayer.php:42
+msgid "Left"
+msgstr "Links"
+
+#: ../admin/audioplayer.php:44
+msgid "Center"
+msgstr "Zentriert"
+
+#: ../admin/audioplayer.php:46
+msgid "Right"
+msgstr "Rechts"
+
+#: ../admin/audioplayer.php:52
+msgid "Colors"
+msgstr "Farben"
+
+#: ../admin/audioplayer.php:62
+msgid "The background color of the wrapper"
+msgstr "Die Hintergrundfarbe von der Hülle"
+
+#: ../admin/audioplayer.php:66
+msgid "Main"
+msgstr "Hauptfarbe"
+
+#: ../admin/audioplayer.php:72
+msgid "The main color for signs and title"
+msgstr "Die Hauptfarbe für Grafiken und die Titel"
+
+#: ../admin/audioplayer.php:76
+msgid "Graphics Fill"
+msgstr "Füllfarbe der Grafiken"
+
+#: ../admin/audioplayer.php:82
+msgid "The background fill color of the graphics"
+msgstr "Die Hintergrundfarbe für alle Grafiken"
+
+#: ../admin/audioplayer.php:86
+msgid "Graphics Fill Hover"
+msgstr "Füllfarbe der Grafiken bei Hover"
+
+#: ../admin/audioplayer.php:92
+msgid "The background fill color when you move your mouse over it."
+msgstr "Die Hintergrundfarbe wenn du deine Maus über das Element bewegst."
+
+#: ../admin/audioplayer.php:96
+msgid "Meta"
+msgstr "Meta"
+
+#: ../admin/audioplayer.php:102
+msgid "The meta color (Text under title)"
+msgstr "Die Metafarbe (Text unter dem Titel)"
+
+#: ../admin/audioplayer.php:106
+msgid "Stroke"
+msgstr "Rahmen"
+
+#: ../admin/audioplayer.php:112
+msgid "The stroke color"
+msgstr "Die Rahmenfarbe"
+
+#: ../admin/audioplayer.php:116
+msgid "Active Track in Playlist"
+msgstr "Aktueller Track in der Playlist"
+
+#: ../admin/audioplayer.php:122
+msgid "The background color for the current selected track in the playlist"
+msgstr "Die Hintergrundfarbe für den aktuellen Track in der Playlist"
+
+#: ../admin/audioplayer.php:128
+#: ../admin/general.php:43
+msgid "Dimensions"
+msgstr "Dimensionen"
+
+#: ../admin/audioplayer.php:132
+msgid "Height"
+msgstr "Höhe"
+
+#: ../admin/audioplayer.php:136
+msgid "Playlist Height"
+msgstr "Playlist Höhe"
+
+#: ../admin/audioplayer.php:140
+msgid "Cover Width"
+msgstr "Coverbreite"
+
+#: ../admin/audioplayer.php:144
+msgid "Cover Height"
+msgstr "Coverhöhe"
+
+#: ../admin/audioplayer.php:148
+msgid "Offset between playlist and player"
+msgstr "Abstand zwischen Playlist und Player"
+
+#: ../admin/audioplayer.php:154
+msgid "Labels"
+msgstr "Bezeichner"
+
+#: ../admin/audioplayer.php:158
+msgid "Facebook Link"
+msgstr "Facebook Link"
+
+#: ../admin/audioplayer.php:162
+msgid "Twitter Link"
+msgstr "Twitter Link"
+
+#: ../admin/audioplayer.php:166
+msgid "Soundcloud Link"
+msgstr "Soundcloud Link"
+
+#: ../admin/audioplayer.php:170
+msgid "Download Link (only for soundcloud tracks)"
+msgstr "Download Link (nur bei Soundcloud Tracks)"
+
+#: ../admin/audioplayer.php:176
+msgid "Activations"
+msgstr "Aktivierungen"
+
+#: ../admin/audioplayer.php:180
+msgid "Opened"
+msgstr "Geöffnet"
+
+#: ../admin/audioplayer.php:181
+msgid "Open player by default"
+msgstr "Öffne Player von Anfang an"
+
+#: ../admin/audioplayer.php:184
+msgid "Volume Button"
+msgstr "Lautstärkeregler"
+
+#: ../admin/audioplayer.php:185
+msgid "Show volume button"
+msgstr "Zeige den Lautstärkeregler"
+
+#: ../admin/audioplayer.php:188
+msgid "Visual playlist"
+msgstr "Visuelle Playlist"
+
+#: ../admin/audioplayer.php:189
+msgid "Enable visual playlist"
+msgstr "Aktiviere die visuelle Playlist"
+
+#: ../admin/audioplayer.php:192
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: ../admin/audioplayer.php:193
+msgid "Enable autoplay"
+msgstr "Aktiviere Autoplay"
+
+#: ../admin/audioplayer.php:196
+msgid "Autoload"
+msgstr "Autoload"
+
+#: ../admin/audioplayer.php:197
+msgid "Load MP3 track when autoplay is disabled"
+msgstr "Lade MP3 Track wenn AutoPlay deaktiviert ist"
+
+#: ../admin/audioplayer.php:200
+msgid "Autonext"
+msgstr "Autonext"
+
+#: ../admin/audioplayer.php:201
+msgid "Play next track when current track ends"
+msgstr "Spiele nächsten Track wenn der Aktuelle endet"
+
+#: ../admin/audioplayer.php:204
+msgid "Keyboard Shortcuts"
+msgstr "Tastaturnavigation"
+
+#: ../admin/audioplayer.php:205
+msgid "Enable keyboard shortcuts"
+msgstr "Aktiviere Tastaturnavigation"
+
+#: ../admin/audioplayer.php:208
+msgid "Social Links"
+msgstr "Soziale Links"
+
+#: ../admin/audioplayer.php:209
+msgid "Show social Links"
+msgstr "Zeige soziale Links"
+
+#: ../admin/audioplayer.php:212
+msgid "Shuffle Button"
+msgstr "Misch Button"
+
+#: ../admin/audioplayer.php:213
+msgid "Show the shuffle button"
+msgstr "Zeige den Misch Button"
+
+#: ../admin/audioplayer.php:216
+msgid "Randomize"
+msgstr "Willkürlich anordnen"
+
+#: ../admin/audioplayer.php:217
+msgid "Randomize default playlist"
+msgstr "Mische die Standard Playlist"
+
+#: ../admin/audioplayer.php:220
+msgid "Auto Pop-Up"
+msgstr "Auto Pop-Up"
+
+#: ../admin/audioplayer.php:221
+msgid "Pop out player in a Pop-Up window, when site is loaded"
+msgstr "Öffnet den Player in einem Pop-Up Fenster, wenn die Seite geladen ist"
+
+#: ../admin/audioplayer.php:224
+msgid "Sortable Playlist"
+msgstr "Sortierbare Playlist"
+
+#: ../admin/audioplayer.php:225
+msgid "Make playlist sortable via Drag & Drop"
+msgstr "Playlist kann via Drag & Drop sortiert werden"
+
+#: ../admin/audioplayer.php:231
+msgid "Initiate first when window is loaded"
+msgstr "Starte erst wenn das Fenster geladen ist"
+
+#: ../admin/audioplayer.php:232
+msgid "When you see this alert message:<br /> <i style=\"color: #000;\">SM2 failed to start. Flash missing, blocked or security error? Status: INIT_TIMEOUT</i>.<br /> Then check this checkbox, this could help to fix the issue, because the player will be initiated first, when the window is completely loaded."
+msgstr "Wenn du diese Warnung siehst:<br /> <i style=\"color: #000;\">SM2 failed to start. Flash missing, blocked or security error? Status: INIT_TIMEOUT</i>.<br /> Dann aktiviere dieses Kontrollkästchen, das könnte helfen das Problem zu beheben, da der Player erst gestartet wird, wenn das Fenster komplett geladen ist."
+
+#: ../admin/audioplayer.php:239
+msgid "Responsive Layout"
+msgstr "Responsive Layout"
+
+#: ../admin/audioplayer.php:240
+msgid "Include additional CSS to make the player responsive."
+msgstr "Fügt eine zusätzliche CSS ein, um den Player responsive zu machen."
+
+#: ../admin/general.php:7
+msgid "Add player to every page ?"
+msgstr "Player in jede Seite einfügen ?"
+
+#: ../admin/general.php:7
+msgid "Would you like to add the player to every page, then check this checkbox. Otherwise the player will be only added to pages where a shortcode for this plugin is found."
+msgstr "Möchtest du den Player in jede Seite einfügen, dann mach ein Häckchen im Kasten. Ansonsten wird der Player nur in die Seiten eingefügt, wo ein Shortcode von diesem Plugin gefunden wird."
+
+#: ../admin/general.php:13
+msgid "External Buttons"
+msgstr "Externe Buttons"
+
+#: ../admin/general.php:14
+#, php-format
+msgid "The buttons of the tracks and playlists in your post or page.<br /><a href=\"%1$s\">Click here to edit the style sheet of these buttons</a>. You find them at the bottom of the CSS document."
+msgstr "Die Buttons der Tracks und Playlists in deinen Beiträgen und Seiten.<br /><a href=\"%1$s\">Klicke hier um die Style Sheet von diesen Buttons zu bearbeiten</a>. Du findest diese am Ende des Dokuments."
+
+#: ../admin/general.php:17
+msgid "Play CSS Class"
+msgstr "CSS Klasse für Play"
+
+#: ../admin/general.php:21
+msgid "Referral CSS Class"
+msgstr "CSS Klasse für die Verweisung"
+
+#: ../admin/general.php:25
+msgid "Play Text"
+msgstr "Play Text"
+
+#: ../admin/general.php:29
+msgid "Referral Text"
+msgstr "Verweisungstext"
+
+#: ../admin/general.php:33
+msgid "Login Text"
+msgstr "Login Text"
+
+#: ../admin/general.php:37
+msgid "Log in to download"
+msgstr "Log in zum Download"
+
+#: ../admin/general.php:37
+msgid "Only logged in users can download the tracks."
+msgstr "Nur angemeldete User können Tracks herunterladen."
+
+#: ../admin/general.php:44
+msgid "The dimensions of the images in the list/grid items that you add to your page or post."
+msgstr "Die Dimensionen der Bilder für die Listen- und Gitterelemente, die du in deine Seiten und Beiträge hinzufügst."
+
+#: ../admin/general.php:47
+msgid "List Item Image Width"
+msgstr "Bildbreite von Listenelemente"
+
+#: ../admin/general.php:51
+msgid "List Item Image Height"
+msgstr "Bildhöhe von Listenelemente"
+
+#: ../admin/general.php:55
+msgid "Grid Item Image Width"
+msgstr "Bildbreite von Gitterelemente"
+
+#: ../admin/general.php:59
+msgid "Grid Item Image Height"
+msgstr "Bildhöhe von Gitterelemente"
+
+#: ../admin/general.php:65
+msgid "Hide track URL with base64"
+msgstr "Verstecke die Track URL mit base64"
+
+#: ../admin/general.php:65
+msgid "You can hide the track URL with base64, so users can not download the track by viewing the source code."
+msgstr "Du kannst die Track URL mit base64 verstecken, damit die Nutzer den Track nicht downloaden können indem sie den Quelltext anschauen."
+
+#: ../admin/general.php:71
+msgid "Public posts"
+msgstr "Öffentliche Beiträge"
+
+#: ../admin/general.php:71
+msgid "Every track will be published as a public post."
+msgstr "Jeder Track wird als öffentlicher Beitrag veröffentlicht."
+
+#: ../admin/support.php:3
+msgid "What&acute;s this....?"
+msgstr "Was ist das....?"
+
+#: ../admin/support.php:4
+msgid "...yes it is what it is, <strong>a support forum for my products</strong>. Use this support forum when you have questions according to this product.<br />Just sign up as a member and post your question in the <strong>correct category</strong>."
+msgstr "...ja es ist was es ist, <strong>ein Support Forum für meine Produkte</strong>. Nutze das Support Forum wenn du Fragen zu meinen Produkten hast.<br />Einfach als Mitglied registrieren und stelle deine Frage in der <strong>richtigen Kategorie</strong>. Bitte verfasse deine Beiträge nur in Englisch."
+
+#~ msgid "Set a layout - only for adding a playlist:"
+#~ msgstr "Wähle ein Layout - nur wenn eine Playlist hinzugefügt wird:"
+
+#~ msgid "Soundcloud Client ID"
+#~ msgstr "Soundcloud Client ID"
+
+#~ msgid ""
+#~ " You need a client ID key to use tracks from soundcloud.<br /><a href="
+#~ "\"http://soundcloud.com/you/apps\" target=\"_blank\">Just register a new "
+#~ "App for free and get your Client ID</a>."
+#~ msgstr ""
+#~ "Du brauchst einen Client ID um Tracks von Soundcloud abspielen zu können."
+#~ "<br /><a href=\"http://soundcloud.com/you/apps\" target=\"_blank"
+#~ "\">Einfach kostenlos eine neue App registrieren und erhalte deinen eigene "
+#~ "Client ID</a>."
+
+#~ msgid ""
+#~ "Check out <a href=\"http://dj-templates.com\" target=\"_blank\">dj-"
+#~ "templates.com</a> for more items for Djs and Producers."
+#~ msgstr ""
+#~ "Schau dir <a href=\"http://dj-templates.com\" target=\"_blank\">dj-"
+#~ "templates.com</a> an, um mehr Produkte für Djs und Produzenten zu finden."

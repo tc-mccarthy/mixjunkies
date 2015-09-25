@@ -1,0 +1,69 @@
+<?php
+
+// Accordion Slider
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/accordion-slider.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Accordions
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/accordions.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Author Info
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/author-info.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Blockquotes
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/blockquotes.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Blogs
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/blogs.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Buttons
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/buttons.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Columns
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/columns.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Contact Form
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/contact-form.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Dividers
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/dividers.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Dropcaps
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/dropcaps.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Images
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/images.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Fade Slider
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/fade-slider.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Login Form
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/login-form.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Notifications
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/notifications.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Portfolios
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/portfolios.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Register Form
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/register-form.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Related Posts
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/related-posts.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Sidebars
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/sidebars.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Tabs
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/tabs.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Text Boxes
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/text-boxes.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Toggle Boxes
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/toggle-boxes.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+// Videos
+wptouch_include_functions_file(ghostpool_admin . '/shortcodes/videos.php', '/var/www/mixjunkies.com/wp-content/themes/tarnished', '/var/www/mixjunkies.com/wp-content/themes/tarnished/lib/admin/inc', 'require_once');
+
+?>

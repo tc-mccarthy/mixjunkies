@@ -1,0 +1,2 @@
+<form method="get" id="searchform" action="http://www.mixjunkies.com/search-results">
+<input type="text" name="q" id="searchbar" class="clean" value="Enter a keyword or artist name" /><input type="submit" id="searchsubmit" value="FIND" /></form>

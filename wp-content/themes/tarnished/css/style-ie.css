@@ -1,0 +1,31 @@
+/*************************** General Styling ***************************/
+
+/* Form Styling */
+input[type="submit"],
+input[type="reset"] {
+padding: 6px 10px;
+}
+
+
+/*************************** Shortcodes: Accordion ***************************/
+
+.panel-content {
+overflow: hidden;
+}
+
+
+/*************************** Shortcodes: Accordion Slider ***************************/
+
+/* Accordion Caption */
+.accordion-slider .panel .caption-outer {
+z-index: 1;
+}
+
+
+/*************************** Theme Options Box ***************************/
+
+/* Button */
+.trigger {
+top: 50px;
+left: 0;
+}

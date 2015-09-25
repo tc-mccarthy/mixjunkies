@@ -1,0 +1,70 @@
+/*************************** General Styling ***************************/
+
+/* Text Styling */
+a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+color: #a72348;
+}
+a:hover,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+color: #61001b;
+}
+
+
+/*************************** Header ***************************/
+
+/* Header */
+#page-stripe {
+background: url(../images/page-stripe-red.png) no-repeat;
+}
+
+/* Logo */
+#logo h1 a {
+color: #a72348;
+}
+#logo span {
+background: url(../images/logo-red.png) no-repeat;
+}
+
+
+/*************************** Navigation Menu ***************************/
+
+/* Top Level Nav */
+#nav ul li a:hover,
+#nav ul .current-menu-item > a,
+#nav ul .current-menu-ancestor > a {
+color: #f10044;
+}
+
+
+/*************************** Footer ***************************/
+
+/* Footer Wrapper */
+#footer h3 {
+color: #f10044;
+}
+
+
+/*************************** Shortcodes: Fade Slider ***************************/
+
+/* Slider Nav Chain */
+.nav-type-1 .slider-button:hover,
+.nav-type-1 .activeSlide.slider-button {
+border: 2px solid #f10044;
+}
+.nav-type-2 .slider-button:hover,
+.nav-type-2 .activeSlide.slider-button,
+.nav-type-3 .slider-button:hover,
+.nav-type-3 .activeSlide.slider-button {
+background: #f10044;
+}
